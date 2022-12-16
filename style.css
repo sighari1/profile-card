@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(29, 29, 29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-card {
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    background: white;
+    color: #333;
+}
+
+.cover-img {
+    display: block;
+    width: 100%;
+}
+.profile-img{
+    width: 140px;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+
+.profile-img:hover{
+    box-shadow: 0 0 0 4px rgb(255, 0, 0);
+    transition: box-shadow 0.5s;
+}
+
+
+
+.profile-card h1{
+    font-weight: 900;
+}
+
+.follow-btn {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(85, 85, 85);
+    padding: 6px 35px;
+    margin: 25px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row h2{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.view-btn{
+    display: inline-block; 
+    text-decoration: none;
+    background: rgb(255, 0, 79);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+}
